@@ -1,0 +1,13 @@
+name,unit,type,description,source,allowed_values_or_range,example
+age_years,years,integer,Applicant age in completed years at application date,document,18-100,29
+employment_type,category,string,Whether the applicant draws a salary or earns business or professional income,applicant,salaried | self_employed,salaried
+employer_category,category,string,Type of employer for salaried applicants (self-employed use not_applicable),applicant + document,govt_psu | mnc_listed | large_private | other_private | not_applicable,large_private
+monthly_income_inr,INR per month,float,"Net monthly take-home salary, or for self-employed the average monthly net income from ITR and bank statements",document,> 0,60000
+total_experience_months,months,integer,Total work or business experience,applicant,>= 0,72
+current_job_months,months,integer,"Months with current employer, or business vintage for self-employed",document,0 to total_experience_months,30
+city,text,string,City of residence or work used for city-based rules,applicant + document,any city name,Ahmedabad
+credit_score,score,integer,"Credit bureau score (CIBIL range 300-900); empty means no credit history",bureau,300-900 or empty,745
+existing_emi_inr,INR per month,float,"Sum of monthly EMIs on all running loans (bureau report, confirmed by applicant)",bureau + applicant,>= 0,8000
+loan_amount_requested_inr,INR,float,Loan amount the applicant wants,applicant,> 0,500000
+tenure_requested_months,months,integer,Repayment period the applicant wants,applicant,> 0,36
+recent_defaults,boolean,boolean,"True if the bureau shows a write-off, settlement or 90+ days overdue in the last 24 months",bureau,true | false,false

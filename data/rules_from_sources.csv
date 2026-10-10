@@ -1,0 +1,215 @@
+lender_id,rule_name,value,unit,applies_to,city_group,rule_status,source_url,date_read,evidence_note
+SBI,employment_types_allowed,salaried,list,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/real-time-xpress-credit,2026-10-10,Digital personal loan is for salaried customers who hold a Salary Package account with SBI
+SBI,min_age,21,years,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,Eligibility table: age 21-60
+SBI,max_age_at_maturity,60,years,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,Loan must be closed on or before retirement / end of contract / 60 years of age
+SBI,min_monthly_income,25000,INR,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,"Minimum net monthly salary: Rs 25,000 corporate employees, Rs 20,000 government/defence. Higher value used"
+SBI,min_current_job_months,12,months,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,"Service needed: 12 months corporate, 6 months government/defence. Higher value used"
+SBI,max_foir_pct,65,percent,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,Loan amount is 'subject to EMI/NMI ratio up to 65%'
+SBI,max_income_multiple,30,times,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,Maximum loan is the lower of 30 times net monthly income and the 65% EMI/NMI limit
+SBI,min_loan_amount,100000,INR,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,Minimum loan Rs 1 lakh
+SBI,max_loan_amount,5000000,INR,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,Maximum loan Rs 50 lakh
+SBI,min_tenure_months,6,months,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,Tenure 6 to 84 months
+SBI,max_tenure_months,84,months,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,Tenure 6 to 84 months
+SBI,rate_min_pct,10.0,percent,all,all,listed,https://sbi.bank.in/web/interest-rates/interest-rates/loan-schemes-interest-rates/personal-loans-schemes,2026-10-10,Rate table: SBI Personal Loan scheme 10.00% to 15.00% (effective 15.12.2025)
+SBI,rate_max_pct,15.0,percent,all,all,listed,https://sbi.bank.in/web/interest-rates/interest-rates/loan-schemes-interest-rates/personal-loans-schemes,2026-10-10,Rate table: SBI Personal Loan scheme 10.00% to 15.00% (effective 15.12.2025)
+SBI,processing_fee_pct,1.5,percent,all,all,listed,https://sbi.bank.in/web/personal-banking/loans/personal-loans/sbi-personal-loan,2026-10-10,"Up to 1.5% of loan (min Rs 1,000, max Rs 15,000) plus GST"
+HDFC,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://v.hdfc.bank.in/htdocs/amp/personal-loan/eligibility_criteria.html,2026-10-10,Page says personal loans are offered to salaried and self-employed individuals
+HDFC,min_age,21,years,all,all,listed,https://v.hdfc.bank.in/htdocs/amp/personal-loan/eligibility_criteria.html,2026-10-10,Age 21 to 60
+HDFC,max_age_at_maturity,60,years,all,all,estimated,https://v.hdfc.bank.in/htdocs/amp/personal-loan/eligibility_criteria.html,2026-10-10,Page gives the applicant age range 21-60 but not age at maturity. 60 used as a cautious reading
+HDFC,min_monthly_income,25000,INR,all,all,listed,https://v.hdfc.bank.in/htdocs/amp/personal-loan/eligibility_criteria.html,2026-10-10,"Minimum net income Rs 25,000 per month. This is an older AMP copy of the page, so re-check"
+HDFC,min_total_experience_months,24,months,all,all,listed,https://v.hdfc.bank.in/htdocs/amp/personal-loan/eligibility_criteria.html,2026-10-10,At least 2 years in a job
+HDFC,min_current_job_months,12,months,all,all,listed,https://v.hdfc.bank.in/htdocs/amp/personal-loan/eligibility_criteria.html,2026-10-10,At least 1 year with the current employer
+HDFC,max_loan_amount,5000000,INR,all,all,listed,https://www.hdfc.bank.in/personal-loan/india,2026-10-10,Page description: personal loan up to Rs 50 lakh (the older AMP page says Rs 40 lakh)
+HDFC,rate_min_pct,9.99,percent,all,all,listed,https://www.hdfc.bank.in/personal-loan,2026-10-10,Page title as shown in search results: 'starting at 9.99%*'. The page body could not be read by the tool
+ICICI,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,Eligibility FAQ lists criteria for salaried and self-employed
+ICICI,min_age,20,years,salaried,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,"FAQ: salaried 20-58 (the About section says 18-58, so the page disagrees with itself)"
+ICICI,min_age,23,years,self_employed,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,FAQ: self-employed minimum age 23
+ICICI,max_age_at_maturity,58,years,salaried,all,estimated,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,"Page gives salaried applicant age range up to 58, not age at maturity. 58 used as a cautious reading"
+ICICI,max_age_at_maturity,65,years,self_employed,all,estimated,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,"Page gives self-employed age range up to 65, not age at maturity. 65 used as a cautious reading"
+ICICI,min_monthly_income,30000,INR,salaried,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,"Salaried minimum monthly income Rs 30,000 (another ICICI FAQ page says Rs 25,000)"
+ICICI,min_total_experience_months,24,months,salaried,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,Salaried: 2 years of work experience
+ICICI,min_current_job_months,24,months,self_employed,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,Self-employed: 2 years of business
+ICICI,min_total_experience_months,36,months,self_employed,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,Self-employed: 3 years of overall experience (FAQ only)
+ICICI,min_credit_score,700,score,all,all,estimated,https://www.icici.bank.in/personal-banking/loans/personal-loan/personal-loans-faqs,2026-10-10,"No fixed minimum is stated. Product page prefers 750+; FAQ says 700+ improves chances, so 700 is used as the cut-off"
+ICICI,max_foir_pct,45,percent,all,all,estimated,https://www.icici.bank.in/personal-banking/loans/personal-loan/personal-loans-faqs,2026-10-10,FAQ: ICICI Bank generally prefers FOIR below 40-45% (other answers on the page say 40% and 50%). 45% used
+ICICI,min_loan_amount,50000,INR,all,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,"FAQ range Rs 50,000 to Rs 50,00,000"
+ICICI,max_loan_amount,5000000,INR,all,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,"FAQ range Rs 50,000 to Rs 50,00,000"
+ICICI,min_tenure_months,12,months,all,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,Tenure 12 to 84 months
+ICICI,max_tenure_months,84,months,all,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,Tenure 12 to 84 months
+ICICI,rate_min_pct,9.99,percent,all,all,listed,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,Page title: starting at 9.99% p.a.
+ICICI,rate_max_pct,17,percent,all,all,derived,https://www.icici.bank.in/personal-banking/loans/personal-loan,2026-10-10,The page's EMI calculator shows example rates from 9.99% to 17%. Used as the upper end; it is not a rate card
+KOTAK,employment_types_allowed,salaried,list,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan/eligibility.html,2026-10-10,Eligibility page describes salaried individuals; self-employed eligibility is not stated
+KOTAK,min_age,21,years,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan/eligibility.html,2026-10-10,Age 21 to 60 (one FAQ section says 21-80*)
+KOTAK,max_age_at_maturity,60,years,all,all,estimated,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan/eligibility.html,2026-10-10,"Page gives applicant age range up to 60, not age at maturity. 60 used as a cautious reading"
+KOTAK,min_monthly_income,30000,INR,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan/eligibility.html,2026-10-10,"Net monthly income Rs 30,000, or Rs 25,000 for Kotak salary account holders. The general figure is used"
+KOTAK,min_total_experience_months,12,months,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan/eligibility.html,2026-10-10,At least 1 year of work experience
+KOTAK,min_credit_score,685,score,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan/faqs.html,2026-10-10,FAQ says CIBIL 685 or higher; the eligibility page says 750+ is 'generally good'. The FAQ figure is used
+KOTAK,min_loan_amount,50000,INR,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan/eligibility.html,2026-10-10,"Loans start at Rs 50,000"
+KOTAK,max_loan_amount,10000000,INR,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan/eligibility.html,2026-10-10,Up to Rs 1 crore
+KOTAK,min_tenure_months,12,months,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan.html,2026-10-10,Tenure 1 to 6 years
+KOTAK,max_tenure_months,72,months,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan.html,2026-10-10,Tenure 1 to 6 years
+KOTAK,rate_min_pct,10.99,percent,all,all,listed,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan/eligibility.html,2026-10-10,Rates start from 10.99% p.a.
+INDUSIND,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://www.indusind.bank.in/iblogs/personal-loan/a-guide-to-qualifying-for-a-personal-loan-with-indusind-bank/,2026-10-10,IndusInd's own guide mentions both salaried and self-employed applicants
+INDUSIND,min_age,21,years,all,all,listed,https://www.indusind.bank.in/iblogs/personal-loan/a-guide-to-qualifying-for-a-personal-loan-with-indusind-bank/,2026-10-10,Guide: applicants are typically between 21 and 60
+INDUSIND,max_age_at_maturity,60,years,all,all,estimated,https://www.indusind.bank.in/iblogs/personal-loan/a-guide-to-qualifying-for-a-personal-loan-with-indusind-bank/,2026-10-10,"Guide gives 'typically 21 to 60', not age at maturity. 60 used as a cautious reading"
+INDUSIND,min_loan_amount,30000,INR,all,all,listed,https://www.indusind.bank.in/iblogs/personal-loan/a-guide-to-qualifying-for-a-personal-loan-with-indusind-bank/,2026-10-10,"Guide: loans from Rs 30,000 up to Rs 5 lakh"
+INDUSIND,max_loan_amount,500000,INR,all,all,listed,https://www.indusind.bank.in/iblogs/personal-loan/a-guide-to-qualifying-for-a-personal-loan-with-indusind-bank/,2026-10-10,Guide and product page: up to Rs 5 lakh
+INDUSIND,min_tenure_months,12,months,all,all,listed,https://www.indusind.bank.in/iblogs/personal-loan/a-guide-to-qualifying-for-a-personal-loan-with-indusind-bank/,2026-10-10,Guide: tenure 12 to 48 months
+INDUSIND,max_tenure_months,48,months,all,all,listed,https://www.indusind.bank.in/iblogs/personal-loan/a-guide-to-qualifying-for-a-personal-loan-with-indusind-bank/,2026-10-10,Guide: tenure 12 to 48 months
+INDUSIND,rate_min_pct,10.49,percent,all,all,listed,https://www.indusind.bank.in/in/en/personal/loans/personal-loan-interest-rate.html,2026-10-10,Rates start from 10.49%
+INDUSIND,processing_fee_pct,2,percent,all,all,listed,https://www.indusind.bank.in/in/en/personal/loans/personal-loan-interest-rate.html,2026-10-10,"2% processing fee, shown as a limited-period offer"
+IDFCFIRST,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/personal-loan-eligibility-calculator,2026-10-10,Both salaried and self-employed can apply
+IDFCFIRST,min_age,21,years,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/personal-loan-eligibility-calculator,2026-10-10,Applicants must be above 21 at the time of application
+IDFCFIRST,max_age_at_maturity,60,years,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/personal-loan-eligibility-calculator,2026-10-10,Maximum age is 60 at the time of repayment completion
+IDFCFIRST,min_monthly_income,10000,INR,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/personal-loan-eligibility-calculator,2026-10-10,"FIRSTmoney personal loan needs a salary of Rs 10,000 and above"
+IDFCFIRST,min_credit_score,710,score,salaried,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/personal-loan-eligibility-calculator,2026-10-10,CIBIL 710+ for salaried
+IDFCFIRST,min_credit_score,760,score,self_employed,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/personal-loan-eligibility-calculator,2026-10-10,CIBIL 760+ for self-employed
+IDFCFIRST,min_loan_amount,50000,INR,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/fees-and-charges,2026-10-10,"Loans from Rs 50,000"
+IDFCFIRST,max_loan_amount,1500000,INR,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/fees-and-charges,2026-10-10,Loans up to Rs 15 lakh
+IDFCFIRST,min_tenure_months,9,months,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/fees-and-charges,2026-10-10,Tenure 9 to 60 months
+IDFCFIRST,max_tenure_months,60,months,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/fees-and-charges,2026-10-10,Tenure 9 to 60 months
+IDFCFIRST,rate_min_pct,9.99,percent,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/fees-and-charges,2026-10-10,Rates start from 9.99% p.a.
+IDFCFIRST,rate_max_pct,38,percent,all,all,estimated,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/fees-and-charges,2026-10-10,The EMI calculator slider on the fees page goes up to 38%. The page does not call it a maximum rate
+IDFCFIRST,processing_fee_pct,3.5,percent,all,all,listed,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan/fees-and-charges,2026-10-10,Processing fee 0% to 3.5% including GST (the FAQ says 2%)
+BOB,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,Salaried employees and self-employed persons are eligible; staff and NRIs are not
+BOB,min_age,21,years,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,Minimum age 21
+BOB,max_age_at_maturity,60,years,salaried,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,"Salaried: age plus repayment period should not exceed retirement age or 60, whichever is lower"
+BOB,max_age_at_maturity,65,years,self_employed,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,Non-salaried: age plus repayment period should not exceed 65
+BOB,min_current_job_months,12,months,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,Employees: 1 year continuous service. Self-employed: 1 year of stable business
+BOB,max_foir_pct,50,percent,all,all,estimated,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,"Page: FOIR 75% (government/listed employers with BoB salary account), 70% (other government), 40% to 70% depending on income for others. 50% used as a middle-low value"
+BOB,min_credit_score,701,score,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan,2026-10-10,Page says CIBIL 'must be above 701'. The wording is unclear; 701 used
+BOB,min_loan_amount,100000,INR,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,"Minimum Rs 1 lakh at metro and urban branches (Rs 50,000 at rural/semi-urban)"
+BOB,max_loan_amount,2000000,INR,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,"Maximum Rs 20 lakh, linked to occupation and bank relationship (semi-urban/rural cap of Rs 15 lakh is not modelled)"
+BOB,min_tenure_months,12,months,all,all,derived,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,Calculator range starts at 12 months; no minimum is written in the policy terms
+BOB,max_tenure_months,60,months,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,"Page: 84 months for government employees with a BoB salary account, 72 months for other bank accounts, 48-60 months for others. 60 used for a general applicant"
+BOB,rate_min_pct,10.15,percent,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,Floating rate from 10.15% (government/defence with salary account)
+BOB,rate_max_pct,17.5,percent,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,Floating rate up to 17.50% (Category A)
+BOB,processing_fee_pct,2,percent,all,all,listed,https://bankofbaroda.bank.in/loans/personal-loan/baroda-personal-loan,2026-10-10,Fee ranges from 1% to 2% of loan plus GST
+PNB,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,"Salaried (government, PSU, reputed firms paid via PNB) and self-employed in listed professions only"
+PNB,min_current_job_months,24,months,salaried,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,Salaried: 2 years of service (3 years for the check-off group)
+PNB,min_monthly_income,50000,INR,self_employed,all,derived,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,"Self-employed need gross annual income of Rs 6 lakh: 600000 / 12 = Rs 50,000 a month (gross, not net)"
+PNB,min_credit_score,750,score,self_employed,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,Self-employed borrower needs CIC score 750+
+PNB,max_age_at_maturity,65,years,self_employed,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,Self-employed repayment must end by age 65
+PNB,max_income_multiple,24,times,salaried,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,Salaried: up to 24 times gross monthly salary
+PNB,max_income_multiple,10,times,self_employed,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,Self-employed: 10 times average gross monthly income of the last two years
+PNB,max_loan_amount,2000000,INR,salaried,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,Salaried: capped at Rs 20 lakh
+PNB,max_loan_amount,500000,INR,self_employed,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,Self-employed: capped at Rs 5 lakh
+PNB,max_tenure_months,72,months,salaried,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,"Salaried: up to 72 EMIs or remaining service, whichever is earlier"
+PNB,max_tenure_months,60,months,self_employed,all,listed,https://pnb.bank.in/personalloanforpublic.html,2026-10-10,Self-employed: up to 60 EMIs or age 65
+PNB,rate_min_pct,10.3,percent,all,all,listed,https://www.pnb.bank.in/downloadprocess.aspx?fid=r0O4wjPC39Mk41kt2Wo%2FbA%3D%3D,2026-10-10,PNB rate-range document (Annexure-1A): Personal Loan 10.30% to 14.75%. Found through search; check the document date
+PNB,rate_max_pct,14.75,percent,all,all,listed,https://www.pnb.bank.in/downloadprocess.aspx?fid=r0O4wjPC39Mk41kt2Wo%2FbA%3D%3D,2026-10-10,PNB rate-range document (Annexure-1A): Personal Loan 10.30% to 14.75%. Found through search; check the document date
+CANARA,employment_types_allowed,salaried,list,all,all,listed,https://www.canarabank.bank.in/canara-budget,2026-10-10,Canara Budget is a personal loan for salaried employees
+CANARA,min_current_job_months,12,months,all,all,listed,https://www.canarabank.bank.in/canara-budget,2026-10-10,At least 1 year of service and confirmed in the role
+CANARA,max_foir_pct,75,percent,all,all,derived,https://www.canarabank.bank.in/canara-budget,2026-10-10,"Net take-home after all EMIs must be at least 25% of pay or Rs 10,000. So EMIs can be at most 75% of pay (pay is probably gross; for pay under Rs 40,000 the Rs 10,000 floor is stricter)"
+CANARA,max_income_multiple,25,times,all,all,listed,https://www.canarabank.bank.in/canara-budget,2026-10-10,Up to 25 months of gross salary
+CANARA,max_loan_amount,4000000,INR,all,all,listed,https://www.canarabank.bank.in/canara-budget,2026-10-10,Rs 50 lakh for the Prime variant and Rs 40 lakh for Delight (private employers). The lower figure is used
+CANARA,max_tenure_months,84,months,all,all,listed,https://www.canarabank.bank.in/canara-budget,2026-10-10,Term-loan EMIs up to 84 months
+CANARA,rate_min_pct,9.7,percent,all,all,listed,https://www.canarabank.bank.in/pages/interest-rate-range-on-loans,2026-10-10,Rate-range page: Canara Budget 9.70% to 14.70% (contracted loans w.e.f. 12.12.2025)
+CANARA,rate_max_pct,14.7,percent,all,all,listed,https://www.canarabank.bank.in/pages/interest-rate-range-on-loans,2026-10-10,Rate-range page: Canara Budget 9.70% to 14.70% (contracted loans w.e.f. 12.12.2025)
+CANARA,processing_fee_pct,0.5,percent,all,all,listed,https://www.canarabank.bank.in/canara-budget,2026-10-10,"0.50% of loan, min Rs 1,000, max Rs 5,000"
+UNION,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://www.unionbankofindia.bank.in/en/Details/union-personal-salaried-individual-other-than-government-employee,2026-10-10,Separate schemes exist for salaried (other than government) and non-salaried borrowers
+UNION,min_age,21,years,salaried,all,listed,https://www.unionbankofindia.bank.in/en/Details/union-personal-salaried-individual-other-than-government-employee,2026-10-10,Salaried scheme: age between 21 and 60
+UNION,max_age_at_maturity,60,years,salaried,all,estimated,https://www.unionbankofindia.bank.in/en/Details/union-personal-salaried-individual-other-than-government-employee,2026-10-10,"Salaried scheme gives age range 21-60, not age at maturity. 60 used as a cautious reading"
+UNION,max_age_at_maturity,75,years,self_employed,all,listed,https://www.unionbankofindia.bank.in/en/Details/union-personal-loan-non-salaried,2026-10-10,"Non-salaried scheme: repayment up to age 75 or 5 years, whichever is earlier"
+UNION,min_tenure_months,12,months,salaried,all,listed,https://www.unionbankofindia.bank.in/en/Details/union-personal-salaried-individual-other-than-government-employee,2026-10-10,Page FAQ: tenures range from one to five years
+UNION,max_tenure_months,60,months,salaried,all,listed,https://www.unionbankofindia.bank.in/en/Details/union-personal-salaried-individual-other-than-government-employee,2026-10-10,Page FAQ: tenures range from one to five years
+UNION,max_tenure_months,60,months,self_employed,all,listed,https://www.unionbankofindia.bank.in/en/Details/union-personal-loan-non-salaried,2026-10-10,Non-salaried scheme: maximum 5 years (60 months)
+UNION,max_loan_amount,500000,INR,self_employed,all,listed,https://www.unionbankofindia.bank.in/en/Details/union-personal-loan-non-salaried,2026-10-10,Non-salaried: Rs 5 lakh for new borrowers (Rs 15 lakh for existing borrowers with a good 2-year record)
+UNION,rate_min_pct,9.3,percent,salaried,all,listed,https://www.unionbankofindia.bank.in/pdf/retail_roi.pdf,2026-10-10,"Rate document w.e.f. 08.10.2026: Union Personal salaried (non-government) 9.30% to 12.60%, linked to CIC score band"
+UNION,rate_max_pct,12.6,percent,salaried,all,listed,https://www.unionbankofindia.bank.in/pdf/retail_roi.pdf,2026-10-10,"Rate document w.e.f. 08.10.2026: Union Personal salaried (non-government) 9.30% to 12.60%, linked to CIC score band"
+UNION,rate_min_pct,9.35,percent,self_employed,all,listed,https://www.unionbankofindia.bank.in/pdf/retail_roi.pdf,2026-10-10,Rate document w.e.f. 08.10.2026: Union Personal non-salaried 9.35% to 12.90%
+UNION,rate_max_pct,12.9,percent,self_employed,all,listed,https://www.unionbankofindia.bank.in/pdf/retail_roi.pdf,2026-10-10,Rate document w.e.f. 08.10.2026: Union Personal non-salaried 9.35% to 12.90%
+BAJAJ,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,"Salaried or self-employed, with a public, private or MNC employer"
+BAJAJ,min_age,21,years,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,Age 21 to 80
+BAJAJ,max_age_at_maturity,80,years,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,Borrower must be 80 or younger at the end of the loan tenure
+BAJAJ,min_monthly_income,25001,INR,all,all,listed,https://www.bajajfinserv.in/minimum-salary-required-for-personal-loan,2026-10-10,"'Monthly salary: starting Rs 25,001, based on the city you live in'. City-wise amounts are not published"
+BAJAJ,min_credit_score,650,score,all,all,listed,https://www.bajajfinserv.in/minimum-salary-required-for-personal-loan,2026-10-10,CIBIL score 650 or higher
+BAJAJ,max_foir_pct,50,percent,all,all,estimated,https://www.bajajfinserv.in/insights/how-much-personal-loan-can-i-get-on-my-salary,2026-10-10,Bajaj's help page says most lenders keep total EMIs within 50-60% of income. It is not a Bajaj-specific figure; the lower end is used
+BAJAJ,min_loan_amount,40000,INR,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,"Minimum Rs 40,000"
+BAJAJ,max_loan_amount,5500000,INR,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,Maximum Rs 55 lakh
+BAJAJ,min_tenure_months,12,months,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,Tenure 12 to 108 months
+BAJAJ,max_tenure_months,108,months,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,Tenure 12 to 108 months
+BAJAJ,rate_min_pct,10,percent,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,Fee table: 10% to 30.5% p.a.
+BAJAJ,rate_max_pct,30.5,percent,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,Fee table: 10% to 30.5% p.a.
+BAJAJ,processing_fee_pct,4.13,percent,all,all,listed,https://www.bajajfinserv.in/personal-loan,2026-10-10,Up to 4.13% including taxes
+TATACAP,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://www.tatacapital.com/personal-loan/eligibility-calculator.html,2026-10-10,"FAQ gives minimum income for both salaried (Rs 15,000) and self-employed (Rs 20,000) applicants"
+TATACAP,min_age,21,years,all,all,listed,https://www.tatacapital.com/personal-loan/eligibility-calculator.html,2026-10-10,Applicant age 21 to 58
+TATACAP,max_age_at_maturity,58,years,all,all,estimated,https://www.tatacapital.com/personal-loan/eligibility-calculator.html,2026-10-10,"Page gives applicant age up to 58, not age at maturity. 58 used as a cautious reading"
+TATACAP,min_monthly_income,20000,INR,all,all,listed,https://www.tatacapital.com/personal-loan/eligibility-calculator.html,2026-10-10,"Eligibility table: Rs 20,000. The FAQ on the same page says Rs 15,000 for salaried, so the page disagrees with itself"
+TATACAP,min_total_experience_months,24,months,all,all,listed,https://www.tatacapital.com/personal-loan.html,2026-10-10,Product page: 2 years of total work experience (the calculator page says at least 1 year)
+TATACAP,min_current_job_months,12,months,all,all,listed,https://www.tatacapital.com/personal-loan.html,2026-10-10,Product page: at least 1 year at the current job
+TATACAP,min_credit_score,725,score,all,all,estimated,https://www.tatacapital.com/personal-loan/eligibility-calculator.html,2026-10-10,"Page says 725+ 'improves approval chances'; no hard minimum is given. 725 used, which may be strict"
+TATACAP,max_foir_pct,50,percent,all,all,estimated,https://www.tatacapital.com/personal-loan/eligibility-calculator.html,2026-10-10,Page: FOIR of 40% to 50% is generally considered good. Upper end used
+TATACAP,min_loan_amount,75000,INR,all,all,listed,https://www.tatacapital.com/personal-loan/rates-and-charges.html,2026-10-10,"EMI calculator and FAQ start at Rs 75,000 (the product page says Rs 40,000)"
+TATACAP,max_loan_amount,3500000,INR,all,all,listed,https://www.tatacapital.com/personal-loan.html,2026-10-10,Up to Rs 35 lakh
+TATACAP,min_tenure_months,12,months,all,all,listed,https://www.tatacapital.com/personal-loan/rates-and-charges.html,2026-10-10,EMI calculator tenure 12 to 72 months
+TATACAP,max_tenure_months,72,months,all,all,listed,https://www.tatacapital.com/personal-loan/rates-and-charges.html,2026-10-10,EMI calculator tenure 12 to 72 months
+TATACAP,rate_min_pct,10.99,percent,all,all,listed,https://www.tatacapital.com/personal-loan/rates-and-charges.html,2026-10-10,Rate of interest 10.99% minimum
+TATACAP,rate_max_pct,33,percent,all,all,listed,https://www.tatacapital.com/personal-loan/rates-and-charges.html,2026-10-10,Rate of interest 33% maximum (APR up to 45% including fees)
+TATACAP,processing_fee_pct,5,percent,all,all,listed,https://www.tatacapital.com/personal-loan/rates-and-charges.html,2026-10-10,Up to 5% of loan plus GST
+ABCAP,employment_types_allowed,salaried,list,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan/eligibility-criteria,2026-10-10,Eligibility table says 'Employment: Salaried' (an FAQ contradicts itself on self-employed)
+ABCAP,min_age,21,years,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan/eligibility-criteria,2026-10-10,Minimum age 21 or 23 depending on loan type
+ABCAP,max_age_at_maturity,60,years,all,all,estimated,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan/eligibility-criteria,2026-10-10,"Maximum age 60, extendable to 62 depending on loan type. Not clearly 'at maturity'; 60 used"
+ABCAP,min_monthly_income,20000,INR,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan/eligibility-criteria,2026-10-10,"Minimum income starts at Rs 20,000 and goes up to Rs 40,000 depending on city and loan type. The lowest figure is used"
+ABCAP,min_current_job_months,6,months,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan,2026-10-10,Six months in current employment
+ABCAP,min_credit_score,700,score,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan/eligibility-criteria,2026-10-10,Eligibility section: credit score 700+ (an FAQ says around 650+)
+ABCAP,max_loan_amount,5000000,INR,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan,2026-10-10,Page title says up to Rs 50 lakh (an FAQ says Rs 65 lakh). The lower figure is used
+ABCAP,min_tenure_months,12,months,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan/eligibility-criteria,2026-10-10,Calculator tenure 1 to 7 years
+ABCAP,max_tenure_months,84,months,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan/eligibility-criteria,2026-10-10,Calculator 1 to 7 years; FAQ says maximum 84 months
+ABCAP,rate_min_pct,10.99,percent,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan/interest-rates,2026-10-10,Rates start from 10.99% p.a.
+ABCAP,processing_fee_pct,4,percent,all,all,listed,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan,2026-10-10,Fee up to 1.5% to 4% of the loan amount
+POONAWALLA,employment_types_allowed,salaried,list,all,all,listed,https://poonawallafincorp.com/personal-loan/eligibility-and-documents,2026-10-10,Eligibility lists salaried full-time employees; self-employed is not stated
+POONAWALLA,min_age,21,years,all,all,listed,https://poonawallafincorp.com/personal-loan/eligibility-and-documents,2026-10-10,Age 21 to 60
+POONAWALLA,max_age_at_maturity,60,years,all,all,estimated,https://poonawallafincorp.com/personal-loan/eligibility-and-documents,2026-10-10,"Page gives applicant age up to 60, not age at maturity. 60 used as a cautious reading"
+POONAWALLA,min_monthly_income,25000,INR,all,all,listed,https://poonawallafincorp.com/personal-loan/eligibility-and-documents,2026-10-10,"Minimum take-home salary Rs 25,000 per month"
+POONAWALLA,min_total_experience_months,12,months,all,all,listed,https://poonawallafincorp.com/personal-loan/eligibility-and-documents,2026-10-10,At least 1 year of total work experience
+POONAWALLA,min_current_job_months,1,months,all,all,listed,https://poonawallafincorp.com/personal-loan/eligibility-and-documents,2026-10-10,At least 1 month with the current employer
+POONAWALLA,min_credit_score,700,score,all,all,listed,https://poonawallafincorp.com/personal-loan-faq.php,2026-10-10,FAQ: the minimum credit score required is 700
+POONAWALLA,min_loan_amount,100000,INR,all,all,listed,https://poonawallafincorp.com/personal-loan/interest-rate-and-charges,2026-10-10,Loan range Rs 1 lakh to Rs 50 lakh
+POONAWALLA,max_loan_amount,5000000,INR,all,all,listed,https://poonawallafincorp.com/personal-loan/interest-rate-and-charges,2026-10-10,Loan range Rs 1 lakh to Rs 50 lakh
+POONAWALLA,min_tenure_months,12,months,all,all,listed,https://poonawallafincorp.com/personal-loan/interest-rate-and-charges,2026-10-10,Tenure 12 to 84 months
+POONAWALLA,max_tenure_months,84,months,all,all,listed,https://poonawallafincorp.com/personal-loan/interest-rate-and-charges,2026-10-10,Tenure 12 to 84 months
+POONAWALLA,rate_min_pct,9.99,percent,all,all,listed,https://poonawallafincorp.com/personal-loan/interest-rate-and-charges,2026-10-10,Rates start from 9.99% p.a.
+POONAWALLA,processing_fee_pct,4,percent,all,all,listed,https://poonawallafincorp.com/personal-loan/interest-rate-and-charges,2026-10-10,Up to 4% plus taxes
+HEROFIN,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://www.herofincorp.com/personal-loan-eligibility,2026-10-10,Eligibility table: salaried or self-employed
+HEROFIN,min_age,21,years,all,all,listed,https://www.herofincorp.com/personal-loan-eligibility,2026-10-10,Age 21 to 58
+HEROFIN,max_age_at_maturity,58,years,all,all,estimated,https://www.herofincorp.com/personal-loan-eligibility,2026-10-10,"Page gives applicant age up to 58, not age at maturity. 58 used as a cautious reading"
+HEROFIN,min_monthly_income,15000,INR,all,all,listed,https://www.herofincorp.com/personal-loan-eligibility,2026-10-10,"Minimum Rs 15,000 per month"
+HEROFIN,min_credit_score,725,score,all,all,estimated,https://www.herofincorp.com/personal-loan-eligibility,2026-10-10,"Page says '725+ preferred', not a hard minimum. 725 used"
+HEROFIN,min_loan_amount,50000,INR,all,all,listed,https://www.herofincorp.com/personal-loans,2026-10-10,"Minimum Rs 50,000"
+HEROFIN,max_loan_amount,700000,INR,all,all,listed,https://www.herofincorp.com/personal-loans,2026-10-10,Up to Rs 7 lakh
+HEROFIN,min_tenure_months,12,months,all,all,listed,https://www.herofincorp.com/personal-loans,2026-10-10,Product page: tenure 12 to 36 months (the eligibility calculator says 6 to 24)
+HEROFIN,max_tenure_months,36,months,all,all,listed,https://www.herofincorp.com/personal-loans,2026-10-10,Product page: tenure 12 to 36 months (the eligibility calculator says 6 to 24)
+HEROFIN,rate_min_pct,17.9,percent,all,all,listed,https://www.herofincorp.com/personal-loan-fees-and-charges,2026-10-10,Starting from 17.9% p.a.
+HEROFIN,rate_max_pct,30,percent,all,all,derived,https://www.herofincorp.com/personal-loans,2026-10-10,The page's calculator shows rates from 17.9% to 30%. Upper end used; it is not a rate card
+HEROFIN,processing_fee_pct,2.5,percent,all,all,listed,https://www.herofincorp.com/personal-loan-fees-and-charges,2026-10-10,Minimum 2.5% plus GST
+NAVI,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://navi.com/blog/apply-for-instant-personal-loans/,2026-10-10,Navi's blog page: salaried or self-employed. The main product page could not be read by the tool
+NAVI,max_loan_amount,2000000,INR,all,all,listed,https://navi.com/blog/apply-for-instant-personal-loans/,2026-10-10,Navi's blog page: up to Rs 20 lakh
+NAVI,max_tenure_months,72,months,all,all,listed,https://navi.com/blog/apply-for-instant-personal-loans/,2026-10-10,Navi's blog page: tenure up to 72 months
+NAVI,rate_min_pct,9.9,percent,all,all,listed,https://navi.com/blog/apply-for-instant-personal-loans/,2026-10-10,Navi's blog page: starts at 9.9% p.a.
+NAVI,rate_max_pct,45,percent,all,all,listed,https://navi.com/blog/apply-for-instant-personal-loans/,2026-10-10,Navi's blog page loan-details table: 9.9% to 45% p.a.
+MONEYVIEW,employment_types_allowed,salaried|self_employed,list,all,all,listed,https://moneyview.in/personal-loan-eligibility-check,2026-10-10,Must be salaried or self-employed (own business); salary must be credited to a bank account
+MONEYVIEW,min_age,21,years,all,all,listed,https://moneyview.in/personal-loan-eligibility-check,2026-10-10,Age 21 to 57
+MONEYVIEW,max_age_at_maturity,57,years,all,all,estimated,https://moneyview.in/personal-loan-eligibility-check,2026-10-10,"Page gives applicant age up to 57, not age at maturity. 57 used as a cautious reading"
+MONEYVIEW,min_monthly_income,25000,INR,all,all,listed,https://moneyview.in/personal-loan-eligibility-check,2026-10-10,"Monthly in-hand income Rs 25,000 or more (the FAQ says monthly household income)"
+MONEYVIEW,min_credit_score,650,score,all,all,listed,https://moneyview.in/personal-loan-eligibility-check,2026-10-10,Minimum CIBIL score 650
+MONEYVIEW,min_loan_amount,5000,INR,all,all,listed,https://moneyview.in/loans-faq-en,2026-10-10,"Minimum borrowable amount Rs 5,000"
+MONEYVIEW,max_loan_amount,1000000,INR,all,all,listed,https://moneyview.in/loans-faq-en,2026-10-10,Up to Rs 10 lakh
+MONEYVIEW,min_tenure_months,3,months,all,all,listed,https://moneyview.in/personal-loan-eligibility-check,2026-10-10,Feature table: 3 to 60 months (the calculator allows up to 72)
+MONEYVIEW,max_tenure_months,60,months,all,all,listed,https://moneyview.in/personal-loan-eligibility-check,2026-10-10,Feature table: 3 to 60 months (the calculator allows up to 72)
+MONEYVIEW,rate_min_pct,14,percent,all,all,listed,https://moneyview.in/personal-loan-eligibility-check,2026-10-10,Starting from 14% per annum
+MONEYVIEW,rate_max_pct,36,percent,all,all,derived,https://moneyview.in/loans-faq-en,2026-10-10,FAQ: monthly interest 1.16% to 3%; 3% x 12 = 36% a year (FAQ APR range is 17% to 45% including fees)
+MONEYVIEW,processing_fee_pct,2,percent,all,all,listed,https://moneyview.in/personal-loan,2026-10-10,Starting at 2% of the approved amount
+FIBE,employment_types_allowed,salaried,list,all,all,listed,https://www.fibe.in/personal-loan/eligibility-criteria/,2026-10-10,Eligibility page: one should be a salaried individual
+FIBE,min_age,19,years,all,all,listed,https://www.fibe.in/personal-loan/eligibility-criteria/,2026-10-10,Age 19 to 55
+FIBE,max_age_at_maturity,55,years,all,all,estimated,https://www.fibe.in/personal-loan/eligibility-criteria/,2026-10-10,"Page gives applicant age up to 55, not age at maturity. 55 used as a cautious reading"
+FIBE,min_monthly_income,25000,INR,all,all,listed,https://www.fibe.in/personal-loan/eligibility-criteria/,2026-10-10,"Eligibility page: in-hand salary Rs 25,000. The product page says Rs 20,000 and an FAQ says Rs 55,000, so the pages disagree"
+FIBE,min_credit_score,650,score,all,all,estimated,https://www.fibe.in/personal-loan/,2026-10-10,Product page: preferably 650 or above (not a hard minimum)
+FIBE,max_foir_pct,40,percent,all,all,estimated,https://www.fibe.in/personal-loan/eligibility-criteria/,2026-10-10,Eligibility page says the debt-to-income ratio must be under 40%. DTI is used as FOIR
+FIBE,max_loan_amount,1000000,INR,all,all,listed,https://www.fibe.in/personal-loan/,2026-10-10,Up to Rs 10 lakh
+FIBE,min_tenure_months,6,months,all,all,listed,https://www.fibe.in/personal-loan/,2026-10-10,Tenure 6 to 36 months
+FIBE,max_tenure_months,36,months,all,all,listed,https://www.fibe.in/personal-loan/,2026-10-10,Tenure 6 to 36 months
+FIBE,rate_min_pct,18,percent,all,all,listed,https://www.fibe.in/personal-loan/,2026-10-10,Starts at 18% p.a. on reducing balance
+FIBE,processing_fee_pct,2,percent,all,all,listed,https://www.fibe.in/personal-loan/,2026-10-10,From 2% of the loan plus GST
+AXIS,max_loan_amount,5000000,INR,all,all,listed,https://www.axis.bank.in/loans/personal-loan,2026-10-10,Page title: personal loan up to Rs 50L
+AXIS,rate_min_pct,9.99,percent,all,all,listed,https://www.axis.bank.in/loans/personal-loan/interest-rates-charges,2026-10-10,Rates page: personal loan interest rates start at 9.99%

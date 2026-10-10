@@ -1,0 +1,41 @@
+lender_id,field,original_url,status_on_2026-10-10,url_now_in_lenders_csv
+SBI,official_product_url,https://sbi.bank.in/web/personal-banking/loans/personal-loans,OK,https://sbi.bank.in/web/personal-banking/loans/personal-loans
+SBI,selection_source_url,https://sbi.bank.in/web/personal-banking/loans/personal-loans,OK,https://sbi.bank.in/web/personal-banking/loans/personal-loans
+HDFC,official_product_url,https://www.hdfc.bank.in/personal-loan/india,OK,https://www.hdfc.bank.in/personal-loan/india
+HDFC,selection_source_url,https://www.hdfc.bank.in/personal-loan/india,OK,https://www.hdfc.bank.in/personal-loan/india
+ICICI,official_product_url,https://www.icici.bank.in/personal-banking/loans/personal-loan,OK,https://www.icici.bank.in/personal-banking/loans/personal-loan
+ICICI,selection_source_url,https://www.icici.bank.in/about-us/annual,OK,https://www.icici.bank.in/about-us/annual
+AXIS,official_product_url,https://www.axis.bank.in/retail/loans/personal-loan,OK (canonical URL differs),https://www.axis.bank.in/loans/personal-loan
+AXIS,selection_source_url,https://www.axis.bank.in/shareholders-corner/shareholders-information/annual-reports,OK,https://www.axis.bank.in/shareholders-corner/shareholders-information/annual-reports
+KOTAK,official_product_url,https://www.kotak.com/en/personal-banking/loans/personal-loan.html,REDIRECT to kotak.bank.in,https://www.kotak.bank.in/en/personal-banking/loans/personal-loan.html
+KOTAK,selection_source_url,https://www.kotak.com/en/investor-relations/financial-results.html,REDIRECT to kotak.bank.in,https://www.kotak.bank.in/en/investor-relations/financial-results.html
+INDUSIND,official_product_url,https://www.indusind.bank.in/in/en/personal/loans/personal-loan.html,OK,https://www.indusind.bank.in/in/en/personal/loans/personal-loan.html
+INDUSIND,selection_source_url,https://www.indusind.bank.in/content/dam/indusind-corporate/investor-resource/latest-annual-report/annual_report_2024-25.pdf,OK,https://www.indusind.bank.in/content/dam/indusind-corporate/investor-resource/latest-annual-report/annual_report_2024-25.pdf
+YES,official_product_url,https://www.yes.bank.in/sites/yesbank/personal-banking/loans/personal-loan,BROKEN (JavaScript shell only),https://www.yes.bank.in/personal-banking/loans/personal-loan
+YES,selection_source_url,https://www.yes.bank.in/sites/yesbank/about-us/investors-relation/financial-information/annual-reports,BROKEN (JavaScript shell only),https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTBCA140C944B041D5B84446680F363E80/native/yes_bank_investor_presentation_mar_2026.pdf?download=false
+IDFCFIRST,official_product_url,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan,OK,https://www.idfcfirst.bank.in/personal-banking/loans/personal-loan
+IDFCFIRST,selection_source_url,https://www.idfcfirst.bank.in/investors/annual-report/idfc-first-bank-annual-reports,OK,https://www.idfcfirst.bank.in/investors/annual-report/idfc-first-bank-annual-reports
+BOB,official_product_url,https://bankofbaroda.bank.in/personal-banking/loans/personal-loan,OK (canonical URL differs),https://bankofbaroda.bank.in/loans/personal-loan
+BOB,selection_source_url,https://bankofbaroda.bank.in/shareholders-corner/annual-reports,OK,https://bankofbaroda.bank.in/shareholders-corner/annual-reports
+PNB,official_product_url,https://www.pnbindia.in/personal-loan.html,DEAD (redirects to Page Not Found),https://pnb.bank.in/personalloanforpublic.html
+PNB,selection_source_url,https://www.pnbindia.in/financials.html,DEAD (redirects to Page Not Found),https://pnb.bank.in/annual-reports.html
+CANARA,official_product_url,https://canarabank.com/pages/Personal-Loan,FETCH ERROR,https://www.canarabank.bank.in/canara-budget
+CANARA,selection_source_url,https://canarabank.com/pages/financial-reports,FETCH ERROR,https://www.canarabank.bank.in/annual-reports-tabs
+UNION,official_product_url,https://www.unionbankofindia.bank.in/en/listing/loans/personal-loan,FETCH ERROR,https://www.unionbankofindia.bank.in/en/listing/personal-loan
+UNION,selection_source_url,https://www.unionbankofindia.bank.in/en/common/financial-results,OK,https://www.unionbankofindia.bank.in/en/common/financial-results
+BAJAJ,official_product_url,https://www.bajajfinserv.in/personal-loan,OK,https://www.bajajfinserv.in/personal-loan
+BAJAJ,selection_source_url,https://www.bajajfinserv.in/finance-investor-relations-annual-reports,OK,https://www.bajajfinserv.in/finance-investor-relations-annual-reports
+TATACAP,official_product_url,https://www.tatacapital.com/personal-loan.html,OK,https://www.tatacapital.com/personal-loan.html
+TATACAP,selection_source_url,https://www.tatacapital.com/about-us/investor-information-and-financials.html,OK,https://www.tatacapital.com/about-us/investor-information-and-financials.html
+ABCAP,official_product_url,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan,OK,https://www.adityabirlacapital.com/loans/personal-finance/personal-loan
+ABCAP,selection_source_url,https://www.adityabirlacapital.com/loans/sitecore/content/ABCL/Corp/Home/investor-relations/financial-reports,OK (odd path),https://www.adityabirlacapital.com/loans/sitecore/content/ABCL/Corp/Home/investor-relations/financial-reports
+POONAWALLA,official_product_url,https://poonawallafincorp.com/personal-loan,OK,https://poonawallafincorp.com/personal-loan
+POONAWALLA,selection_source_url,https://poonawallafincorp.com/investor-relations,FETCH ERROR,https://poonawallafincorp.com/investor-financials
+HEROFIN,official_product_url,https://www.herofincorp.com/personal-loans,OK,https://www.herofincorp.com/personal-loans
+HEROFIN,selection_source_url,https://www.herofincorp.com/personal-loans,OK,https://www.herofincorp.com/personal-loans
+NAVI,official_product_url,https://navi.com/loans/personal-loan,FETCH ERROR,https://navi.com/personal-loan
+NAVI,selection_source_url,https://navi.com/loans/personal-loan,FETCH ERROR,https://navi.com/personal-loan
+MONEYVIEW,official_product_url,https://moneyview.in/personal-loan,OK,https://moneyview.in/personal-loan
+MONEYVIEW,selection_source_url,https://moneyview.in/personal-loan,OK,https://moneyview.in/personal-loan
+FIBE,official_product_url,https://www.fibe.in/personal-loan/,OK,https://www.fibe.in/personal-loan/
+FIBE,selection_source_url,https://www.fibe.in/personal-loan/,OK,https://www.fibe.in/personal-loan/

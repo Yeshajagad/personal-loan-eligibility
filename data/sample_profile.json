@@ -1,0 +1,14 @@
+{
+  "age_years": 29,
+  "employment_type": "salaried",
+  "employer_category": "large_private",
+  "monthly_income_inr": 60000,
+  "total_experience_months": 72,
+  "current_job_months": 30,
+  "city": "Ahmedabad",
+  "credit_score": 745,
+  "existing_emi_inr": 8000,
+  "loan_amount_requested_inr": 500000,
+  "tenure_requested_months": 36,
+  "recent_defaults": false
+}

@@ -1,0 +1,11 @@
+fallback_name,value,method,number_of_published_values
+max_age_at_maturity,60,mode,7
+max_foir_pct,50,median,7
+max_tenure_months,72,median,19
+min_age,21,mode,16
+min_credit_score,650,min,9
+min_loan_amount,50000,median,11
+min_monthly_income,25000,median,13
+min_tenure_months,12,mode,14
+rate_spread_bank,5.0,median,6
+rate_spread_non-bank,22.0,median,5

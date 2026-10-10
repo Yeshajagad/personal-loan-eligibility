@@ -1,0 +1,2514 @@
+[
+  {
+    "id": "P01_typical_salaried",
+    "description": "Typical mid-career private salaried applicant, good score",
+    "input": {
+      "age_years": 29,
+      "employment_type": "salaried",
+      "employer_category": "large_private",
+      "monthly_income_inr": 60000,
+      "total_experience_months": 72,
+      "current_job_months": 30,
+      "city": "Ahmedabad",
+      "credit_score": 745,
+      "existing_emi_inr": 8000,
+      "loan_amount_requested_inr": 500000,
+      "tenure_requested_months": 36,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "Canara Bank",
+    "approvals": [
+      {
+        "lender": "Canara Bank",
+        "max_amount": 1147000,
+        "rate_pct": 9.95,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "HDFC Bank",
+        "max_amount": 679000,
+        "rate_pct": 10.24,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "State Bank of India",
+        "max_amount": 957000,
+        "rate_pct": 10.25,
+        "tenure_months": [
+          6,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Punjab National Bank",
+        "max_amount": 676000,
+        "rate_pct": 10.52,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "ICICI Bank",
+        "max_amount": 582000,
+        "rate_pct": 10.69,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "IndusInd Bank",
+        "max_amount": 500000,
+        "rate_pct": 10.74,
+        "tenure_months": [
+          12,
+          48
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bank of Baroda",
+        "max_amount": 672000,
+        "rate_pct": 10.9,
+        "tenure_months": [
+          12,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bajaj Finance",
+        "max_amount": 671000,
+        "rate_pct": 11.03,
+        "tenure_months": [
+          12,
+          108
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "max_amount": 668000,
+        "rate_pct": 11.37,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Navi",
+        "max_amount": 665000,
+        "rate_pct": 11.66,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "max_amount": 660000,
+        "rate_pct": 12.19,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "max_amount": 651000,
+        "rate_pct": 13.19,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "max_amount": 648000,
+        "rate_pct": 13.49,
+        "tenure_months": [
+          9,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Moneyview",
+        "max_amount": 633000,
+        "rate_pct": 15.1,
+        "tenure_months": [
+          3,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Tata Capital",
+        "max_amount": 631000,
+        "rate_pct": 15.39,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Hero FinCorp",
+        "max_amount": 589000,
+        "rate_pct": 20.32,
+        "tenure_months": [
+          12,
+          36
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Fibe",
+        "max_amount": 435000,
+        "rate_pct": 19.1,
+        "tenure_months": [
+          6,
+          36
+        ],
+        "covers_request": false
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P02_high_income_govt",
+    "description": "High income, government employee, excellent score, metro city",
+    "input": {
+      "age_years": 38,
+      "employment_type": "salaried",
+      "employer_category": "govt_psu",
+      "monthly_income_inr": 150000,
+      "total_experience_months": 180,
+      "current_job_months": 120,
+      "city": "Mumbai",
+      "credit_score": 810,
+      "existing_emi_inr": 20000,
+      "loan_amount_requested_inr": 2000000,
+      "tenure_requested_months": 60,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "Canara Bank",
+    "approvals": [
+      {
+        "lender": "Canara Bank",
+        "max_amount": 3750000,
+        "rate_pct": 9.7,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Navi",
+        "max_amount": 2000000,
+        "rate_pct": 9.9,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "HDFC Bank",
+        "max_amount": 2589000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "max_amount": 2589000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "ICICI Bank",
+        "max_amount": 2236000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "State Bank of India",
+        "max_amount": 3647000,
+        "rate_pct": 10.0,
+        "tenure_months": [
+          6,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bajaj Finance",
+        "max_amount": 2588000,
+        "rate_pct": 10.0,
+        "tenure_months": [
+          12,
+          108
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bank of Baroda",
+        "max_amount": 2000000,
+        "rate_pct": 10.15,
+        "tenure_months": [
+          12,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Punjab National Bank",
+        "max_amount": 2000000,
+        "rate_pct": 10.3,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "max_amount": 2530000,
+        "rate_pct": 10.99,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "max_amount": 2530000,
+        "rate_pct": 10.99,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Tata Capital",
+        "max_amount": 2530000,
+        "rate_pct": 10.99,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "max_amount": 1500000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          9,
+          60
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "IndusInd Bank",
+        "max_amount": 500000,
+        "rate_pct": 10.49,
+        "tenure_months": [
+          12,
+          48
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Moneyview",
+        "max_amount": 1000000,
+        "rate_pct": 14.0,
+        "tenure_months": [
+          3,
+          60
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Hero FinCorp",
+        "max_amount": 700000,
+        "rate_pct": 17.9,
+        "tenure_months": [
+          12,
+          36
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Fibe",
+        "max_amount": 1000000,
+        "rate_pct": 18.0,
+        "tenure_months": [
+          6,
+          36
+        ],
+        "covers_request": false
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P03_low_score",
+    "description": "Edge case: low credit score (640)",
+    "input": {
+      "age_years": 31,
+      "employment_type": "salaried",
+      "employer_category": "other_private",
+      "monthly_income_inr": 45000,
+      "total_experience_months": 84,
+      "current_job_months": 36,
+      "city": "Pune",
+      "credit_score": 640,
+      "existing_emi_inr": 5000,
+      "loan_amount_requested_inr": 300000,
+      "tenure_requested_months": 36,
+      "recent_defaults": false
+    },
+    "eligible": false,
+    "best": null,
+    "approvals": [],
+    "rejections": [
+      {
+        "lender": "State Bank of India",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "HDFC Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "ICICI Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "IndusInd Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Bank of Baroda",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Punjab National Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Canara Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      },
+      {
+        "lender": "Bajaj Finance",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Hero FinCorp",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Navi",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Moneyview",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Fibe",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P04_high_existing_emi",
+    "description": "Edge case: good score but existing EMIs already take most of the income",
+    "input": {
+      "age_years": 35,
+      "employment_type": "salaried",
+      "employer_category": "mnc_listed",
+      "monthly_income_inr": 70000,
+      "total_experience_months": 120,
+      "current_job_months": 60,
+      "city": "Bengaluru",
+      "credit_score": 760,
+      "existing_emi_inr": 45000,
+      "loan_amount_requested_inr": 400000,
+      "tenure_requested_months": 36,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "Canara Bank",
+    "approvals": [
+      {
+        "lender": "Canara Bank",
+        "max_amount": 233000,
+        "rate_pct": 9.7,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": false
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "State Bank of India",
+        "reasons": [
+          "loan_capacity_below_lender_minimum"
+        ]
+      },
+      {
+        "lender": "HDFC Bank",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "ICICI Bank",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "IndusInd Bank",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Bank of Baroda",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Punjab National Bank",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      },
+      {
+        "lender": "Bajaj Finance",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Hero FinCorp",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Navi",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Moneyview",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      },
+      {
+        "lender": "Fibe",
+        "reasons": [
+          "foir_exceeded"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P05_new_job",
+    "description": "Edge case: only 2 months in the current job",
+    "input": {
+      "age_years": 26,
+      "employment_type": "salaried",
+      "employer_category": "large_private",
+      "monthly_income_inr": 55000,
+      "total_experience_months": 48,
+      "current_job_months": 2,
+      "city": "Hyderabad",
+      "credit_score": 730,
+      "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 300000,
+      "tenure_requested_months": 24,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "IndusInd Bank",
+    "approvals": [
+      {
+        "lender": "IndusInd Bank",
+        "max_amount": 500000,
+        "rate_pct": 11.49,
+        "tenure_months": [
+          12,
+          48
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "max_amount": 581000,
+        "rate_pct": 12.53,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "ICICI Bank",
+        "max_amount": 521000,
+        "rate_pct": 12.79,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bajaj Finance",
+        "max_amount": 572000,
+        "rate_pct": 14.1,
+        "tenure_months": [
+          12,
+          108
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Navi",
+        "max_amount": 556000,
+        "rate_pct": 16.92,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Moneyview",
+        "max_amount": 548000,
+        "rate_pct": 18.4,
+        "tenure_months": [
+          3,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "max_amount": 546000,
+        "rate_pct": 18.79,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Fibe",
+        "max_amount": 422000,
+        "rate_pct": 22.4,
+        "tenure_months": [
+          6,
+          36
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "max_amount": 520000,
+        "rate_pct": 23.99,
+        "tenure_months": [
+          9,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Hero FinCorp",
+        "max_amount": 502000,
+        "rate_pct": 27.58,
+        "tenure_months": [
+          12,
+          36
+        ],
+        "covers_request": true
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "State Bank of India",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "HDFC Bank",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Bank of Baroda",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Punjab National Bank",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Canara Bank",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P06_fresher_no_credit_history",
+    "description": "Edge case: 4 months of experience and no credit history",
+    "input": {
+      "age_years": 22,
+      "employment_type": "salaried",
+      "employer_category": "other_private",
+      "monthly_income_inr": 28000,
+      "total_experience_months": 4,
+      "current_job_months": 4,
+      "city": "Jaipur",
+      "credit_score": null,
+      "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 100000,
+      "tenure_requested_months": 12,
+      "recent_defaults": false
+    },
+    "eligible": false,
+    "best": null,
+    "approvals": [],
+    "rejections": [
+      {
+        "lender": "State Bank of India",
+        "reasons": [
+          "no_credit_history",
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "HDFC Bank",
+        "reasons": [
+          "no_credit_history",
+          "total_experience_too_low",
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "ICICI Bank",
+        "reasons": [
+          "income_below_minimum",
+          "no_credit_history",
+          "total_experience_too_low"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "reasons": [
+          "income_below_minimum",
+          "no_credit_history",
+          "total_experience_too_low"
+        ]
+      },
+      {
+        "lender": "IndusInd Bank",
+        "reasons": [
+          "no_credit_history"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "reasons": [
+          "no_credit_history"
+        ]
+      },
+      {
+        "lender": "Bank of Baroda",
+        "reasons": [
+          "no_credit_history",
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Punjab National Bank",
+        "reasons": [
+          "no_credit_history",
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Canara Bank",
+        "reasons": [
+          "no_credit_history",
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      },
+      {
+        "lender": "Bajaj Finance",
+        "reasons": [
+          "no_credit_history"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "no_credit_history",
+          "total_experience_too_low",
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "reasons": [
+          "no_credit_history",
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "reasons": [
+          "no_credit_history",
+          "total_experience_too_low"
+        ]
+      },
+      {
+        "lender": "Hero FinCorp",
+        "reasons": [
+          "no_credit_history"
+        ]
+      },
+      {
+        "lender": "Navi",
+        "reasons": [
+          "no_credit_history"
+        ]
+      },
+      {
+        "lender": "Moneyview",
+        "reasons": [
+          "no_credit_history"
+        ]
+      },
+      {
+        "lender": "Fibe",
+        "reasons": [
+          "no_credit_history"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P07_self_employed_established",
+    "description": "Edge case: self-employed with 8 years of business vintage",
+    "input": {
+      "age_years": 41,
+      "employment_type": "self_employed",
+      "employer_category": "not_applicable",
+      "monthly_income_inr": 120000,
+      "total_experience_months": 180,
+      "current_job_months": 96,
+      "city": "Surat",
+      "credit_score": 735,
+      "existing_emi_inr": 15000,
+      "loan_amount_requested_inr": 1000000,
+      "tenure_requested_months": 48,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "HDFC Bank",
+    "approvals": [
+      {
+        "lender": "HDFC Bank",
+        "max_amount": 1749000,
+        "rate_pct": 10.74,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "ICICI Bank",
+        "max_amount": 1478000,
+        "rate_pct": 12.09,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bank of Baroda",
+        "max_amount": 1696000,
+        "rate_pct": 12.4,
+        "tenure_months": [
+          12,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bajaj Finance",
+        "max_amount": 1675000,
+        "rate_pct": 13.07,
+        "tenure_months": [
+          12,
+          108
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Navi",
+        "max_amount": 1612000,
+        "rate_pct": 15.16,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Moneyview",
+        "max_amount": 1000000,
+        "rate_pct": 17.3,
+        "tenure_months": [
+          3,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Tata Capital",
+        "max_amount": 1375000,
+        "rate_pct": 24.2,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Union Bank of India",
+        "max_amount": 500000,
+        "rate_pct": 9.88,
+        "tenure_months": [
+          12,
+          60
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "IndusInd Bank",
+        "max_amount": 500000,
+        "rate_pct": 11.24,
+        "tenure_months": [
+          12,
+          48
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Hero FinCorp",
+        "max_amount": 700000,
+        "rate_pct": 25.16,
+        "tenure_months": [
+          12,
+          36
+        ],
+        "covers_request": false
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "State Bank of India",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Punjab National Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Canara Bank",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "Fibe",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P08_self_employed_new_business",
+    "description": "Edge case: self-employed, business only 10 months old",
+    "input": {
+      "age_years": 33,
+      "employment_type": "self_employed",
+      "employer_category": "not_applicable",
+      "monthly_income_inr": 80000,
+      "total_experience_months": 60,
+      "current_job_months": 10,
+      "city": "Delhi",
+      "credit_score": 720,
+      "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 500000,
+      "tenure_requested_months": 36,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "Union Bank of India",
+    "approvals": [
+      {
+        "lender": "Union Bank of India",
+        "max_amount": 500000,
+        "rate_pct": 10.41,
+        "tenure_months": [
+          12,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "IndusInd Bank",
+        "max_amount": 500000,
+        "rate_pct": 11.99,
+        "tenure_months": [
+          12,
+          48
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bajaj Finance",
+        "max_amount": 1135000,
+        "rate_pct": 16.15,
+        "tenure_months": [
+          12,
+          108
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Navi",
+        "max_amount": 1070000,
+        "rate_pct": 20.43,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Moneyview",
+        "max_amount": 1000000,
+        "rate_pct": 20.6,
+        "tenure_months": [
+          3,
+          60
+        ],
+        "covers_request": true
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "State Bank of India",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "HDFC Bank",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "ICICI Bank",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Bank of Baroda",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Punjab National Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Canara Bank",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "credit_score_below_minimum",
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      },
+      {
+        "lender": "Hero FinCorp",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Fibe",
+        "reasons": [
+          "employment_type_not_served"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P09_age_near_upper_limit",
+    "description": "Edge case: age 58, so the tenure is capped by maximum age at maturity",
+    "input": {
+      "age_years": 58,
+      "employment_type": "salaried",
+      "employer_category": "govt_psu",
+      "monthly_income_inr": 110000,
+      "total_experience_months": 420,
+      "current_job_months": 300,
+      "city": "Chennai",
+      "credit_score": 790,
+      "existing_emi_inr": 10000,
+      "loan_amount_requested_inr": 600000,
+      "tenure_requested_months": 60,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "Canara Bank",
+    "approvals": [
+      {
+        "lender": "Canara Bank",
+        "max_amount": 1575000,
+        "rate_pct": 9.7,
+        "tenure_months": [
+          12,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Navi",
+        "max_amount": 976000,
+        "rate_pct": 9.9,
+        "tenure_months": [
+          12,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "HDFC Bank",
+        "max_amount": 975000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          12,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "max_amount": 975000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          9,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "max_amount": 975000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          12,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bajaj Finance",
+        "max_amount": 2117000,
+        "rate_pct": 10.0,
+        "tenure_months": [
+          12,
+          108
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "State Bank of India",
+        "max_amount": 1332000,
+        "rate_pct": 10.0,
+        "tenure_months": [
+          6,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bank of Baroda",
+        "max_amount": 973000,
+        "rate_pct": 10.15,
+        "tenure_months": [
+          12,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Punjab National Bank",
+        "max_amount": 972000,
+        "rate_pct": 10.3,
+        "tenure_months": [
+          12,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "max_amount": 965000,
+        "rate_pct": 10.99,
+        "tenure_months": [
+          12,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "max_amount": 965000,
+        "rate_pct": 10.99,
+        "tenure_months": [
+          12,
+          24
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "IndusInd Bank",
+        "max_amount": 500000,
+        "rate_pct": 10.49,
+        "tenure_months": [
+          12,
+          24
+        ],
+        "covers_request": false
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "ICICI Bank",
+        "reasons": [
+          "age_too_high_for_minimum_tenure"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "age_too_high_for_minimum_tenure"
+        ]
+      },
+      {
+        "lender": "Hero FinCorp",
+        "reasons": [
+          "age_too_high_for_minimum_tenure"
+        ]
+      },
+      {
+        "lender": "Moneyview",
+        "reasons": [
+          "age_too_high_for_minimum_tenure"
+        ]
+      },
+      {
+        "lender": "Fibe",
+        "reasons": [
+          "age_too_high_for_minimum_tenure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P10_age_at_lower_limit_low_income",
+    "description": "Edge case: age 21 (many lenders' minimum) with low income",
+    "input": {
+      "age_years": 21,
+      "employment_type": "salaried",
+      "employer_category": "other_private",
+      "monthly_income_inr": 26000,
+      "total_experience_months": 12,
+      "current_job_months": 12,
+      "city": "Lucknow",
+      "credit_score": 700,
+      "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 150000,
+      "tenure_requested_months": 24,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "Canara Bank",
+    "approvals": [
+      {
+        "lender": "Canara Bank",
+        "max_amount": 413000,
+        "rate_pct": 12.2,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "State Bank of India",
+        "max_amount": 357000,
+        "rate_pct": 12.5,
+        "tenure_months": [
+          6,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "IndusInd Bank",
+        "max_amount": 273000,
+        "rate_pct": 12.99,
+        "tenure_months": [
+          12,
+          48
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bajaj Finance",
+        "max_amount": 254000,
+        "rate_pct": 20.25,
+        "tenure_months": [
+          12,
+          108
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Moneyview",
+        "max_amount": 243000,
+        "rate_pct": 25.0,
+        "tenure_months": [
+          3,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Navi",
+        "max_amount": 238000,
+        "rate_pct": 27.45,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Fibe",
+        "max_amount": 187000,
+        "rate_pct": 29.0,
+        "tenure_months": [
+          6,
+          36
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "max_amount": 228000,
+        "rate_pct": 31.99,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "max_amount": 226000,
+        "rate_pct": 32.99,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "HDFC Bank",
+        "reasons": [
+          "total_experience_too_low"
+        ]
+      },
+      {
+        "lender": "ICICI Bank",
+        "reasons": [
+          "income_below_minimum",
+          "total_experience_too_low"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Bank of Baroda",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Punjab National Bank",
+        "reasons": [
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "credit_score_below_minimum",
+          "total_experience_too_low"
+        ]
+      },
+      {
+        "lender": "Hero FinCorp",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P11_recent_default",
+    "description": "Edge case: high score but a recent settlement / 90+ day delay on the report",
+    "input": {
+      "age_years": 36,
+      "employment_type": "salaried",
+      "employer_category": "large_private",
+      "monthly_income_inr": 90000,
+      "total_experience_months": 140,
+      "current_job_months": 70,
+      "city": "Kolkata",
+      "credit_score": 770,
+      "existing_emi_inr": 12000,
+      "loan_amount_requested_inr": 500000,
+      "tenure_requested_months": 36,
+      "recent_defaults": true
+    },
+    "eligible": false,
+    "best": null,
+    "approvals": [],
+    "rejections": [
+      {
+        "lender": "State Bank of India",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "HDFC Bank",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "ICICI Bank",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "IndusInd Bank",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Bank of Baroda",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Punjab National Bank",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Canara Bank",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      },
+      {
+        "lender": "Bajaj Finance",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Hero FinCorp",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Navi",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Moneyview",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      },
+      {
+        "lender": "Fibe",
+        "reasons": [
+          "recent_default_or_delinquency"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P12_very_large_loan_request",
+    "description": "Edge case: Rs 50 lakh requested, tests maximum loan amount and income-multiple caps",
+    "input": {
+      "age_years": 34,
+      "employment_type": "salaried",
+      "employer_category": "mnc_listed",
+      "monthly_income_inr": 200000,
+      "total_experience_months": 120,
+      "current_job_months": 48,
+      "city": "Gurugram",
+      "credit_score": 800,
+      "existing_emi_inr": 30000,
+      "loan_amount_requested_inr": 5000000,
+      "tenure_requested_months": 84,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "State Bank of India",
+    "approvals": [
+      {
+        "lender": "State Bank of India",
+        "max_amount": 5000000,
+        "rate_pct": 10.0,
+        "tenure_months": [
+          6,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Canara Bank",
+        "max_amount": 4000000,
+        "rate_pct": 9.7,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Navi",
+        "max_amount": 2000000,
+        "rate_pct": 9.9,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "max_amount": 4217000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "HDFC Bank",
+        "max_amount": 3779000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "ICICI Bank",
+        "max_amount": 3615000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "max_amount": 1500000,
+        "rate_pct": 9.99,
+        "tenure_months": [
+          9,
+          60
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Bajaj Finance",
+        "max_amount": 4216000,
+        "rate_pct": 10.0,
+        "tenure_months": [
+          12,
+          108
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Bank of Baroda",
+        "max_amount": 2000000,
+        "rate_pct": 10.15,
+        "tenure_months": [
+          12,
+          60
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Punjab National Bank",
+        "max_amount": 2000000,
+        "rate_pct": 10.3,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "IndusInd Bank",
+        "max_amount": 500000,
+        "rate_pct": 10.49,
+        "tenure_months": [
+          12,
+          48
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "max_amount": 4089000,
+        "rate_pct": 10.99,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "max_amount": 3678000,
+        "rate_pct": 10.99,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Tata Capital",
+        "max_amount": 3500000,
+        "rate_pct": 10.99,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Moneyview",
+        "max_amount": 1000000,
+        "rate_pct": 14.0,
+        "tenure_months": [
+          3,
+          60
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Hero FinCorp",
+        "max_amount": 700000,
+        "rate_pct": 17.9,
+        "tenure_months": [
+          12,
+          36
+        ],
+        "covers_request": false
+      },
+      {
+        "lender": "Fibe",
+        "max_amount": 1000000,
+        "rate_pct": 18.0,
+        "tenure_months": [
+          6,
+          36
+        ],
+        "covers_request": false
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P13_borderline_score_650",
+    "description": "Edge case: score exactly 650, a common cut-off",
+    "input": {
+      "age_years": 30,
+      "employment_type": "salaried",
+      "employer_category": "large_private",
+      "monthly_income_inr": 50000,
+      "total_experience_months": 72,
+      "current_job_months": 24,
+      "city": "Ahmedabad",
+      "credit_score": 650,
+      "existing_emi_inr": 5000,
+      "loan_amount_requested_inr": 250000,
+      "tenure_requested_months": 36,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "Canara Bank",
+    "approvals": [
+      {
+        "lender": "Canara Bank",
+        "max_amount": 941000,
+        "rate_pct": 14.7,
+        "tenure_months": [
+          12,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Punjab National Bank",
+        "max_amount": 578000,
+        "rate_pct": 14.75,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "HDFC Bank",
+        "max_amount": 577000,
+        "rate_pct": 14.99,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "State Bank of India",
+        "max_amount": 793000,
+        "rate_pct": 15.0,
+        "tenure_months": [
+          6,
+          84
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "IndusInd Bank",
+        "max_amount": 500000,
+        "rate_pct": 15.49,
+        "tenure_months": [
+          12,
+          48
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Bajaj Finance",
+        "max_amount": 468000,
+        "rate_pct": 30.5,
+        "tenure_months": [
+          12,
+          108
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Moneyview",
+        "max_amount": 436000,
+        "rate_pct": 36.0,
+        "tenure_months": [
+          3,
+          60
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Fibe",
+        "max_amount": 311000,
+        "rate_pct": 40.0,
+        "tenure_months": [
+          6,
+          36
+        ],
+        "covers_request": true
+      },
+      {
+        "lender": "Navi",
+        "max_amount": 391000,
+        "rate_pct": 45.0,
+        "tenure_months": [
+          12,
+          72
+        ],
+        "covers_request": true
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "ICICI Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "IDFC FIRST Bank",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Bank of Baroda",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Hero FinCorp",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "P14_income_below_most_floors",
+    "description": "Edge case: Rs 18,000 monthly income in a non-metro city",
+    "input": {
+      "age_years": 27,
+      "employment_type": "salaried",
+      "employer_category": "other_private",
+      "monthly_income_inr": 18000,
+      "total_experience_months": 30,
+      "current_job_months": 18,
+      "city": "Rajkot",
+      "credit_score": 710,
+      "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 80000,
+      "tenure_requested_months": 18,
+      "recent_defaults": false
+    },
+    "eligible": true,
+    "best": "IDFC FIRST Bank",
+    "approvals": [
+      {
+        "lender": "IDFC FIRST Bank",
+        "max_amount": 122000,
+        "rate_pct": 38.0,
+        "tenure_months": [
+          9,
+          60
+        ],
+        "covers_request": true
+      }
+    ],
+    "rejections": [
+      {
+        "lender": "State Bank of India",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "HDFC Bank",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "ICICI Bank",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Axis Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Kotak Mahindra Bank",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "IndusInd Bank",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Yes Bank",
+        "reasons": [
+          "missing_rule:employment_types_allowed"
+        ]
+      },
+      {
+        "lender": "Bank of Baroda",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Punjab National Bank",
+        "reasons": [
+          "income_below_minimum",
+          "current_job_too_short"
+        ]
+      },
+      {
+        "lender": "Canara Bank",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Union Bank of India",
+        "reasons": [
+          "missing_rule:min_monthly_income",
+          "missing_rule:min_credit_score",
+          "missing_rule:max_foir_pct",
+          "missing_rule:min_loan_amount",
+          "missing_rule:max_loan_amount"
+        ]
+      },
+      {
+        "lender": "Bajaj Finance",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Tata Capital",
+        "reasons": [
+          "income_below_minimum",
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Aditya Birla Capital",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Poonawalla Fincorp",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Hero FinCorp",
+        "reasons": [
+          "credit_score_below_minimum"
+        ]
+      },
+      {
+        "lender": "Navi",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Moneyview",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      },
+      {
+        "lender": "Fibe",
+        "reasons": [
+          "income_below_minimum"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "P01_typical_salaried",
+    "description": "Typical mid-career private salaried applicant, good score",
+    "profile": {"age_years": 29, "employment_type": "salaried", "employer_category": "large_private",
+      "monthly_income_inr": 60000, "total_experience_months": 72, "current_job_months": 30,
+      "city": "Ahmedabad", "credit_score": 745, "existing_emi_inr": 8000,
+      "loan_amount_requested_inr": 500000, "tenure_requested_months": 36, "recent_defaults": false}
+  },
+  {
+    "id": "P02_high_income_govt",
+    "description": "High income, government employee, excellent score, metro city",
+    "profile": {"age_years": 38, "employment_type": "salaried", "employer_category": "govt_psu",
+      "monthly_income_inr": 150000, "total_experience_months": 180, "current_job_months": 120,
+      "city": "Mumbai", "credit_score": 810, "existing_emi_inr": 20000,
+      "loan_amount_requested_inr": 2000000, "tenure_requested_months": 60, "recent_defaults": false}
+  },
+  {
+    "id": "P03_low_score",
+    "description": "Edge case: low credit score (640)",
+    "profile": {"age_years": 31, "employment_type": "salaried", "employer_category": "other_private",
+      "monthly_income_inr": 45000, "total_experience_months": 84, "current_job_months": 36,
+      "city": "Pune", "credit_score": 640, "existing_emi_inr": 5000,
+      "loan_amount_requested_inr": 300000, "tenure_requested_months": 36, "recent_defaults": false}
+  },
+  {
+    "id": "P04_high_existing_emi",
+    "description": "Edge case: good score but existing EMIs already take most of the income",
+    "profile": {"age_years": 35, "employment_type": "salaried", "employer_category": "mnc_listed",
+      "monthly_income_inr": 70000, "total_experience_months": 120, "current_job_months": 60,
+      "city": "Bengaluru", "credit_score": 760, "existing_emi_inr": 45000,
+      "loan_amount_requested_inr": 400000, "tenure_requested_months": 36, "recent_defaults": false}
+  },
+  {
+    "id": "P05_new_job",
+    "description": "Edge case: only 2 months in the current job",
+    "profile": {"age_years": 26, "employment_type": "salaried", "employer_category": "large_private",
+      "monthly_income_inr": 55000, "total_experience_months": 48, "current_job_months": 2,
+      "city": "Hyderabad", "credit_score": 730, "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 300000, "tenure_requested_months": 24, "recent_defaults": false}
+  },
+  {
+    "id": "P06_fresher_no_credit_history",
+    "description": "Edge case: 4 months of experience and no credit history",
+    "profile": {"age_years": 22, "employment_type": "salaried", "employer_category": "other_private",
+      "monthly_income_inr": 28000, "total_experience_months": 4, "current_job_months": 4,
+      "city": "Jaipur", "credit_score": null, "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 100000, "tenure_requested_months": 12, "recent_defaults": false}
+  },
+  {
+    "id": "P07_self_employed_established",
+    "description": "Edge case: self-employed with 8 years of business vintage",
+    "profile": {"age_years": 41, "employment_type": "self_employed", "employer_category": "not_applicable",
+      "monthly_income_inr": 120000, "total_experience_months": 180, "current_job_months": 96,
+      "city": "Surat", "credit_score": 735, "existing_emi_inr": 15000,
+      "loan_amount_requested_inr": 1000000, "tenure_requested_months": 48, "recent_defaults": false}
+  },
+  {
+    "id": "P08_self_employed_new_business",
+    "description": "Edge case: self-employed, business only 10 months old",
+    "profile": {"age_years": 33, "employment_type": "self_employed", "employer_category": "not_applicable",
+      "monthly_income_inr": 80000, "total_experience_months": 60, "current_job_months": 10,
+      "city": "Delhi", "credit_score": 720, "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 500000, "tenure_requested_months": 36, "recent_defaults": false}
+  },
+  {
+    "id": "P09_age_near_upper_limit",
+    "description": "Edge case: age 58, so the tenure is capped by maximum age at maturity",
+    "profile": {"age_years": 58, "employment_type": "salaried", "employer_category": "govt_psu",
+      "monthly_income_inr": 110000, "total_experience_months": 420, "current_job_months": 300,
+      "city": "Chennai", "credit_score": 790, "existing_emi_inr": 10000,
+      "loan_amount_requested_inr": 600000, "tenure_requested_months": 60, "recent_defaults": false}
+  },
+  {
+    "id": "P10_age_at_lower_limit_low_income",
+    "description": "Edge case: age 21 (many lenders' minimum) with low income",
+    "profile": {"age_years": 21, "employment_type": "salaried", "employer_category": "other_private",
+      "monthly_income_inr": 26000, "total_experience_months": 12, "current_job_months": 12,
+      "city": "Lucknow", "credit_score": 700, "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 150000, "tenure_requested_months": 24, "recent_defaults": false}
+  },
+  {
+    "id": "P11_recent_default",
+    "description": "Edge case: high score but a recent settlement / 90+ day delay on the report",
+    "profile": {"age_years": 36, "employment_type": "salaried", "employer_category": "large_private",
+      "monthly_income_inr": 90000, "total_experience_months": 140, "current_job_months": 70,
+      "city": "Kolkata", "credit_score": 770, "existing_emi_inr": 12000,
+      "loan_amount_requested_inr": 500000, "tenure_requested_months": 36, "recent_defaults": true}
+  },
+  {
+    "id": "P12_very_large_loan_request",
+    "description": "Edge case: Rs 50 lakh requested, tests maximum loan amount and income-multiple caps",
+    "profile": {"age_years": 34, "employment_type": "salaried", "employer_category": "mnc_listed",
+      "monthly_income_inr": 200000, "total_experience_months": 120, "current_job_months": 48,
+      "city": "Gurugram", "credit_score": 800, "existing_emi_inr": 30000,
+      "loan_amount_requested_inr": 5000000, "tenure_requested_months": 84, "recent_defaults": false}
+  },
+  {
+    "id": "P13_borderline_score_650",
+    "description": "Edge case: score exactly 650, a common cut-off",
+    "profile": {"age_years": 30, "employment_type": "salaried", "employer_category": "large_private",
+      "monthly_income_inr": 50000, "total_experience_months": 72, "current_job_months": 24,
+      "city": "Ahmedabad", "credit_score": 650, "existing_emi_inr": 5000,
+      "loan_amount_requested_inr": 250000, "tenure_requested_months": 36, "recent_defaults": false}
+  },
+  {
+    "id": "P14_income_below_most_floors",
+    "description": "Edge case: Rs 18,000 monthly income in a non-metro city",
+    "profile": {"age_years": 27, "employment_type": "salaried", "employer_category": "other_private",
+      "monthly_income_inr": 18000, "total_experience_months": 30, "current_job_months": 18,
+      "city": "Rajkot", "credit_score": 710, "existing_emi_inr": 0,
+      "loan_amount_requested_inr": 80000, "tenure_requested_months": 18, "recent_defaults": false}
+  }
+]
